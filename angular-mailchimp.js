@@ -26,6 +26,7 @@ angular.module('mailchimp', ['ng', 'ngResource', 'ngSanitize'])
         'EMAIL': mailchimp.email,
         'FNAME': mailchimp.fname,
         'LNAME': mailchimp.lname,
+        'PHONE': mailchimp.phone,
         'c': 'JSON_CALLBACK',
         'u': mailchimp.u,
         'id': mailchimp.id
